@@ -26,13 +26,13 @@ iMOBI is a new lab in Electrical and Computer Engineering at UT Tyler, and it is
 Dr. Zhang joined UT Tyler in 2025. before which Dr. Zhang taught at Taylor University. She received a Ph.D. in Electrical Engineering from the University of North Texas in 2024 and was named UNT's Outstanding Graduate Student. Dr. Zhang builds intelligent mobile systems where wireless networking, edge computing, and AI meet, with an emphasis on system-level performance and hardware/software integration. 
 ## At a glance
 
-- **Education:** Ph.D. EE, Univ. of North Texas<br>M.S. CS, Beijing Univ. of Posts & Telecom
+- **Education:** Ph.D. EE, Univ. of North Texas
 - **Memberships:** IEEE, IEEE-TVT, IEEE-SMC, IEEE-HKN, Women in Engineering, Young Professionals
 
-<!-- ## Selected awards
+## Selected awards
 
 - Outstanding Graduate Student, University of North Texas (2024)
-- Innovation Award, E-BYTE Technologies (2015, 2018)
+<!-- - Innovation Award, E-BYTE Technologies (2015, 2018)
 - Outstanding Employee, E-BYTE Technologies (2015)
 - Mentor of a Third Prize team, National Youth Maker League, Beijing Division (2017) -->
 
