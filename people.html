@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People | iMOBI Lab</title>
+<meta name="description" content="Dr. Jinran Zhang and members of iMOBI Lab at UT Tyler.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 40 40%27%3E%3Crect width=%2740%27 height=%2740%27 rx=%2710%27 fill=%27%230F1B2D%27/%3E%3Crect x=%2713%27 y=%2720%27 width=%277%27 height=%2713%27 rx=%273.5%27 fill=%27%23fff%27/%3E%3Ccircle cx=%2716.5%27 cy=%2713.5%27 r=%273.8%27 fill=%27%23D9671F%27/%3E%3Cpath d=%27M18.72 7.39A6.5 6.5 0 0 1 22.98 12.93M20.26 3.16A11 11 0 0 1 27.46 12.54%27 fill=%27none%27 stroke=%27%23D9671F%27 stroke-width=%272.6%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,500;112,700;112,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="people">
+<!-- 人员页。文字内容在 content/people.md，修改文字只需编辑那个文件；本文件只负责版式。
+     页眉/导航/页脚：assets/site.js    样式：assets/style.css -->
+<div id="site-header"></div>
+<script src="assets/site.js"></script>
+
+<main data-content="content/people.md">
+<section class="page" id="people">
+  <div class="wrap">
+    <div class="page-head">
+      <div><p class="eyebrow">People</p><h1>Who we are</h1></div>
+      <div data-md="Intro"></div>
+    </div>
+
+    <div class="pi">
+      <div>
+        <div class="portrait" data-photo aria-label="Portrait"><span data-fm="initials">JZ</span></div>
+        <p class="portrait-note">Replace with a headshot (4:5 ratio).</p>
+      </div>
+      <div>
+        <h2 data-fm="name">Dr. Jinran Zhang</h2>
+        <p class="role" data-fm="role"></p>
+        <div class="bio" data-md="Bio"></div>
+        <div class="links" data-links="cv:Curriculum Vitae,scholar:Google Scholar,orcid:ORCID,linkedin:LinkedIn"></div>
+        <dl class="facts" data-md="At a glance" data-mode="facts"></dl>
+        <div class="honors">
+          <div><h3>Selected awards</h3><div data-md="Selected awards"></div></div>
+          <div><h3>Professional service</h3><div data-md="Professional service"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team" aria-label="Open positions" data-md="Open positions" data-mode="seats"></div>
+
+    <div class="teaching">
+      <h2>Courses taught at UT Tyler</h2>
+      <div class="chips" data-md="Courses taught at UT Tyler" data-mode="chips"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/content.js"></script>
+</body>
+</html>

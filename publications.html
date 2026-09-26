@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications | iMOBI Lab</title>
+<meta name="description" content="Publications and patents of iMOBI Lab and Dr. Jinran Zhang.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 40 40%27%3E%3Crect width=%2740%27 height=%2740%27 rx=%2710%27 fill=%27%230F1B2D%27/%3E%3Crect x=%2713%27 y=%2720%27 width=%277%27 height=%2713%27 rx=%273.5%27 fill=%27%23fff%27/%3E%3Ccircle cx=%2716.5%27 cy=%2713.5%27 r=%273.8%27 fill=%27%23D9671F%27/%3E%3Cpath d=%27M18.72 7.39A6.5 6.5 0 0 1 22.98 12.93M20.26 3.16A11 11 0 0 1 27.46 12.54%27 fill=%27none%27 stroke=%27%23D9671F%27 stroke-width=%272.6%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,500;112,700;112,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="publications">
+<!-- 论文页。论文列表在 content/publications.bib（BibTeX）；本文件只含筛选按钮和专利。
+     页眉/导航/页脚：assets/site.js    样式：assets/style.css -->
+<div id="site-header"></div>
+<script src="assets/site.js"></script>
+
+<main>
+<section class="page" id="publications">
+  <div class="wrap">
+    <div class="page-head">
+      <div><p class="eyebrow">Publications</p><h1>Papers &amp; patents</h1></div>
+      <p>Filter by research theme. <span class="tag lead">First author</span> marks papers led by Dr. Zhang.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter publications by theme">
+      <button type="button" id="f-all" data-f="all" aria-pressed="true">All</button>
+      <button type="button" id="f-net" data-f="net" aria-pressed="false">Networks</button>
+      <button type="button" id="f-edge" data-f="edge" aria-pressed="false">Edge computing</button>
+      <button type="button" id="f-ai" data-f="ai" aria-pressed="false">AI for mobile systems</button>
+      <button type="button" id="f-cps" data-f="cps" aria-pressed="false">Cyber-physical systems</button>
+    </div>
+
+    <div id="pubs"></div>
+
+    <div class="patents">
+      <h2>Patents (China)</h2>
+      <div class="pub"><span class="no">P1</span><div><div class="t">A method and system for sending reminder information to fraudulent calls</div><div class="a">J. Liao, <b>J. Zhang</b>, X. Zhang, J. Lin, L. Zhang, L. Zhang</div><div class="v">CN 104410974 B, granted Aug. 2017</div></div></div>
+      <div class="pub"><span class="no">P2</span><div><div class="t">A method for automatically identifying releasable numbers from a blacklist number library</div><div class="a">Y. Liu, <b>J. Zhang</b>, L. Ji, X. Zhang, H. Wang, N. Wang</div><div class="v">CN 106506880 A, 2017</div></div></div>
+      <div class="pub"><span class="no">P3</span><div><div class="t">A method and system for real-time interception of fraudulent calls based on a clustering algorithm</div><div class="a">J. Liao, Y. Wang, D. Wang, J. Lin, <b>J. Zhang</b>, R. Shan, X. Ma</div><div class="v">CN 104469025 A, 2015</div></div></div>
+      <div class="pub"><span class="no">P4</span><div><div class="t">A method and system for intercepting fraudulent calls in real time during a call</div><div class="a">P. Zhou, J. Liao, H. Zhu, J. Lin, J. Huang, <b>J. Zhang</b>, Y. Wang</div><div class="v">CN 104244216 A, 2014</div></div></div>
+    </div>
+    <p class="pubnote">A complete, up-to-date list is on <a href="#" class="todo" title="https://scholar.google.com/citations?user=RcLgkFgAAAAJ&hl=en&oi=ao">Google Scholar</a>.</p>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/publications.js"></script>
+</body>
+</html>
